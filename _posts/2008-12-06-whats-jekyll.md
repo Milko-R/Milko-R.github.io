@@ -6,7 +6,7 @@ categories: [Data]
 tags: [csv]
 ---
 
-“[RFC 4180](https://www.ietf.org/rfc/rfc4180.txt) defines the CSV format according to the following points:
+[RFC 4180](https://www.ietf.org/rfc/rfc4180.txt) defines the CSV format according to the following points:
 
 **CSV Format**
 
