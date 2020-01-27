@@ -1,7 +1,7 @@
 ---
 layout: post
 title: CSV format
-date: 20120-01-27 14:43:00
+date: 2020-01-27 14:43:00
 categories: [Data]
 tags: [csv]
 ---
