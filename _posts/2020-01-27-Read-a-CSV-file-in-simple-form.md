@@ -11,6 +11,7 @@ tags: [csv]
 The program file is test.py.
 
 The simplest form to understand it is as follows: 
+
 {% highlight python %}
 import csv # (1)
 
