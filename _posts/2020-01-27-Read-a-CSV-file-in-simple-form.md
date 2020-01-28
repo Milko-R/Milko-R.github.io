@@ -27,6 +27,7 @@ print (row) #  (6)
 f.close () # (7)
 {% highlight python %}
 
+
 ```
 * (1) Load csv module to operate csv with python
 * (2) Specify the path of the file to read
