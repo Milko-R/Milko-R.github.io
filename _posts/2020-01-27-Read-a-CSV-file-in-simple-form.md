@@ -30,8 +30,8 @@ f.close () # (7)
 
 
 ```
-* (1) Load csv module to operate csv with python
-* (2) Specify the path of the file to read
+* (1) Load csv module to operate csv with python.
+* (2) Specify the path of the file to read.
 * (3) Open the file in read mode using the open function.
 * (4) Extract all the data of the opened file and save it in the rows variable.
 * (5) Use a for statement to retrieve the data stored in rows one by one.
