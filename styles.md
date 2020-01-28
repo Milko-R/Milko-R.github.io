@@ -3,9 +3,7 @@ layout: page
 title: Styles
 ---
 
-<p class="message">
-  <small>This page serves to document the style of various elements used in the site's design.</small>
-</p>
+
 
 ## <small>THIS IS A HEADER</small>
 
