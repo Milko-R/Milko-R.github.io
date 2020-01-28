@@ -26,7 +26,7 @@ for row in rows: #  (5)
 print (row) #  (6)
 
 f.close () # (7)
-{% highlight python %}
+ {% endhighlight %}
 
 
 ```
