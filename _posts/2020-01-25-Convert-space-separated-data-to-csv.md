@@ -21,7 +21,7 @@ datetime  data1 data2
 
 {% highlight csv %}
 #After conversion
-datetime,data1,data2
+
 datetime,data1,data2
 2020-01-04,12,9
 2020-01-05,24,18
