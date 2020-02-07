@@ -3,49 +3,56 @@ layout: post
 title: "Convert space separated data to csv with python"
 date: 2020-01-25 1:45:30
 categories: [Data, Python, Modules]
-tags: [sys, re]
+tags: [sys, cvs]
 
 ---
 
 **Convert space separated data to csv with python**
 
-Use the Python standard module re to convert the data separated by spaces as follows into a comma-separated csv file.
+Use the Python standard module cvs and sys to convert the data separated by spaces as follows into a comma-separated csv file.
 {% highlight txt %}
 #Before conversion
+
 datetime  data1 data2
-2019-01-01 15 25
-2019-01-02  20 30
-2019-01-03  25 40
+2020-01-04,12,9
+2020-01-05,24,18 
+2020-01-06,36,27
 {% endhighlight %}
 
 {% highlight csv %}
 #After conversion
 datetime,data1,data2
-2019-01-01,15,25
-2019-01-02,20,30
-2019-01-03,25,40
+datetime,data1,data2
+2020-01-04,12,9
+2020-01-05,24,18
+2020-01-06,36,27
 {% endhighlight %}
 
 with this code
 {% highlight python %}
 #! /usr/bin/python3 
 
-import re
+import csv
 import sys
 
-pattern=re.compile(' +') 
-ifile=sys.argv[1]       
-ofile=open('c'+ifile.split('.')[0]+'.csv','tw') 
-with open('c'+ifile.split('.')[0]+'.csv','tw')  as ofile:
-    with open(ifile,'tr') as fin:
-        for iline in fin:
-            ofile.write(pattern.sub(',',iline))
-    ofile.close()
+assert len(sys.argv) == 2
+fname_in = sys.argv[1]
+fname_out = 'c{}.csv'.format(
+   ''.join(fname_in.split('.')[:-1])
+)
+
+with open(fname_in, newline='') as fin,  \
+       open(fname_out, mode='w', newline='') as fout:
+
+   reader = csv.reader(fin, delimiter=' ', skipinitialspace=True)
+   writer = csv.writer(fout)
+
+   writer.writerows(reader)
 
 {% endhighlight %}
     
 You can execute the file directly 
 ```
-$ python3 mkcsv.py test.txt
+$ python3 makecsv.py nocommas.txt
 ```
 
