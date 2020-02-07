@@ -8,7 +8,17 @@ tags: [csv]
 
 **Read a CSV file in simple form**
 
-The program file is test.py.
+{% highlight csv %}
+#file to read
+
+Product ID, Department ID, Product code, Product name, Product price
+1,1,1001,A,1000
+2,1,1002,B,1000
+3,1,1003,C,1000
+4,1,1004,D,2000
+5,1,1005,E,2000
+6,1,1006,F,2000
+{% endhighlight %}
 
 The simplest form to understand it is as follows: 
 
@@ -23,7 +33,7 @@ rows = csv.reader (f) # (4)
 
 for row in rows: #  (5)
 
-print (row) #  (6)
+    print (row) #  (6)
 
 f.close () # (7)
  {% endhighlight %}
