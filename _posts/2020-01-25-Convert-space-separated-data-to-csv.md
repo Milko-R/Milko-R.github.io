@@ -14,9 +14,9 @@ Use the Python standard module cvs and sys to convert the data separated by spac
 #Before conversion
 
 datetime  data1 data2
-2020-01-04,12,9
-2020-01-05,24,18 
-2020-01-06,36,27
+2020-01-04 12 9
+2020-01-05 24 18 
+2020-01-06 36 27
 {% endhighlight %}
 
 {% highlight csv %}
