@@ -1,0 +1,15 @@
+---
+layout: post
+title: "Download a CSV from Github"
+date: 2020-02-08 12:58:45
+categories: [Data, Github]
+tags: [csv, github]
+link: https://support.geekseller.com/knowledgebase/convert-txt-file-csv/
+---
+
+<span class="fixed">Open</span>   Go to that particular dataset that you want to download and 
+<span class="fixed">Click</span> on it.
+You will <span class="See">Click</span> "Raw" button on the top right side of the dataset.
+<span class="fixed">Press</span> "Alt"   and then left <span class="fixed">Click</span>  the "Raw" button.
+The whole CSV will download in your system.
+<span class="Remember">Press</span> you have to press Alt and left click simultaneously. Just clicking the "Raw" button will open up the CSV in the browser.
