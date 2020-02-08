@@ -7,8 +7,8 @@ tags: [csv, github]
 link: https://stackoverflow.com/a/42305752/12864361/
 ---
 
-<span class="fixed">Open</span>   Go to that particular dataset that you want to download and 
-<span class="fixed">Click</span> on it.
+<span class="fixed">Go</span> that particular dataset that you want to download 
+and <span class="fixed">Click</span> on it.
 
 You will <span class="See">Click</span> "Raw" button on the top right side of the dataset.
 
@@ -16,4 +16,4 @@ You will <span class="See">Click</span> "Raw" button on the top right side of th
 
 The whole CSV will download in your system.
 
-<span class="Remember">Press</span> you have to press Alt and left click simultaneously. Just clicking the "Raw" button will open up the CSV in the browser.
+<span class="fixed">Remember</span> you have to press Alt and left click simultaneously. Just clicking the "Raw" button will open up the CSV in the browser.
