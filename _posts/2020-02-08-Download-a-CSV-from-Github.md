@@ -10,7 +10,7 @@ link: https://stackoverflow.com/a/42305752/12864361/
 <span class="fixed">Go</span> that particular dataset that you want to download 
 and <span class="fixed">Click</span> on it.
 
-You will <span class="See">Click</span> "Raw" button on the top right side of the dataset.
+You will <span class="fixed">See</span> the "Raw" button on the top right side of the dataset.
 
 <span class="fixed">Press</span> "Alt"   and then left <span class="fixed">Click</span>  the "Raw" button.
 
