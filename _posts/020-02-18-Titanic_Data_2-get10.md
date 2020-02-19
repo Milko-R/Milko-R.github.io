@@ -7,8 +7,6 @@ tags: [sys, cvs]
 
 ---
 
-**Convert space separated data to csv with python**
-
 For a quick view, we can print only the first 10 rows  of the huge Titanic.csv file.
 
 With this simple code:
