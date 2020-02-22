@@ -1,12 +1,13 @@
-
 ---
 layout: post
-title: "Titanic_Data_3(Get the top N rows) "
-date: 2020-02-22 1:45:30
+title: Titanic_Data_3(Get the top N rows)
+date: 2020-02-22 07:30:00
 categories: [Data, Python, Modules]
-tags: [ cvs, operator, itemgetter]
+tags: [csv, operator, itemgetter]
 
 ---
+
+
 We can get the top N  rows of the huge Titanic.csv file with itemgetter.
 
 With this  code:
