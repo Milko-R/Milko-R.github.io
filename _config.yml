@@ -1,7 +1,7 @@
 # Setup
 title: Milko's Tech-blog
-tagline: pythonista
-url: https://noir.essentialenemy.com
+tagline: coding & logic
+url: http://milko.tech
 paginate: 1
 baseurl: ""
 permalink: :title/
