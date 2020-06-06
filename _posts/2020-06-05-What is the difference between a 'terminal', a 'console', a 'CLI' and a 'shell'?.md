@@ -5,9 +5,10 @@ title: What is the difference between a 'terminal', a 'console', a 'CLI' and a '
 date: 2020-06-05 21:21:00
 categories: [General]
 tags: [terminal]
+link: https://blog.adrienne.io/terminal-console-cli-arent-they-all-the-same-thing/
 ---
 
-[Adrienne Braganza](https://blog.adrienne.io/terminal-console-cli-arent-they-all-the-same-thing/) defines the differences between them as follows:
+Adrienne Braganza defines the differences between them as follows:
 
 ### What is a Terminal?
 
